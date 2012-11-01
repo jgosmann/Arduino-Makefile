@@ -796,7 +796,7 @@ $(OBJDIR)/%.sym: $(OBJDIR)/%.elf
 # Avrdude
 #
 ifndef AVRDUDE
-    AVRDUDE          = $(AVR_TOOLS_PATH)/avrdude
+    AVRDUDE          = $(AVR_TOOLS_PATH)/avrdude -v -v
 endif
 
 ifndef AVRDUDE_CONF
